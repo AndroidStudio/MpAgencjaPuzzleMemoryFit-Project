@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texture version="1" file="bg_splash.png" type="bitmap" width="800" height="480" pixelformat="RGBA_8888" minfilter="nearest" magfilter="nearest" wrapt="repeat" wraps="repeat" premultiplyalpha="false">
+    <!-- Created with TexturePacker http://texturepacker.com -->
+    <!-- $TexturePacker:SmartUpdate:b04e8c5afc6aa0c383c1983d6eba2631$ -->
+    <textureregion id="0" src="bg_splash.png" x="0" y="0" width="800" height="480" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="800" srcheight="480"/>
+</texture>

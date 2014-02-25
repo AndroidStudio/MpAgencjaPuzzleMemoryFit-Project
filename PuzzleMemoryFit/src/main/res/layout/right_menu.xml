@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+
+    <ImageButton
+        android:onClick="onHomeClick"
+        android:padding="@dimen/right_manu_margin"
+        android:id="@+id/home_button"
+        android:src="@drawable/home_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"/>
+
+    <RelativeLayout
+        android:animateLayoutChanges="true"
+        android:id="@+id/rightMenuLayout"
+        android:layout_margin="@dimen/right_manu_margin"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/start_bg_menu">
+
+        <ImageButton
+            android:paddingLeft="4dp"
+            android:paddingBottom="3dp"
+            android:paddingRight="6dp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/right_menu_buttons_margin"
+            android:id="@+id/btnSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/start_settings_button"
+            android:background="@android:color/transparent"/>
+
+
+        <RelativeLayout
+            android:layout_centerHorizontal="true"
+            android:id="@+id/optionsLayout"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnSettings">
+
+            <ImageButton
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/btnFx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/start_fx_button"
+                android:background="@android:color/transparent"/>
+
+            <ImageButton
+                android:layout_centerHorizontal="true"
+                android:paddingBottom="5dp"
+                android:id="@+id/btnVolume"
+                android:layout_below="@+id/btnFx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/start_volume_button"
+                android:background="@android:color/transparent"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</merge>

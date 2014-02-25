@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_game_list"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:splitMotionEvents="false">
+
+        <ImageButton
+            android:id="@+id/puzzle_game_button"
+            android:layout_margin="@dimen/game_list_buttons_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/puzzle_game_button"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/memory_game_button"
+            android:layout_margin="@dimen/game_list_buttons_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/memory_game_button"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/sounds_game_button"
+            android:layout_margin="@dimen/game_list_buttons_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sounds_game_button"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/adventure_game_button"
+            android:layout_margin="@dimen/game_list_buttons_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/adventure_game_button"
+            android:background="@null"/>
+    </LinearLayout>
+
+    <include layout="@layout/right_menu"/>
+</RelativeLayout>

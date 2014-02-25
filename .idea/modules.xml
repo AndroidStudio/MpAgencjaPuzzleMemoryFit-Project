@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndEngineTexturePackerExtension/AndEngineTexturePackerExtension.iml" filepath="$PROJECT_DIR$/AndEngineTexturePackerExtension/AndEngineTexturePackerExtension.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndEngine_AnchorCenter/AndEngine_AnchorCenter.iml" filepath="$PROJECT_DIR$/AndEngine_AnchorCenter/AndEngine_AnchorCenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndEngine_Box2D_AnchorCenter/AndEngine_Box2D_AnchorCenter.iml" filepath="$PROJECT_DIR$/AndEngine_Box2D_AnchorCenter/AndEngine_Box2D_AnchorCenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Facebook/Facebook.iml" filepath="$PROJECT_DIR$/Facebook/Facebook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MpAgencjaPuzzleMemoryFit-Project.iml" filepath="$PROJECT_DIR$/MpAgencjaPuzzleMemoryFit-Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PuzzleMemoryFit/PuzzleMemoryFit.iml" filepath="$PROJECT_DIR$/PuzzleMemoryFit/PuzzleMemoryFit.iml" />
+    </modules>
+  </component>
+</project>
+

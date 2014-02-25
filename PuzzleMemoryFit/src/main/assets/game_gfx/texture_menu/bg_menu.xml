@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texture version="1" file="bg_menu.png" type="bitmap" width="800" height="480" pixelformat="RGBA_8888" minfilter="nearest" magfilter="nearest" wrapt="repeat" wraps="repeat" premultiplyalpha="false">
+    <!-- Created with TexturePacker http://texturepacker.com -->
+    <!-- $TexturePacker:SmartUpdate:b54f1b621170c04da04633b6ae0372c4$ -->
+    <textureregion id="0" src="bg_menu.png" x="0" y="0" width="800" height="480" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="800" srcheight="480"/>
+</texture>

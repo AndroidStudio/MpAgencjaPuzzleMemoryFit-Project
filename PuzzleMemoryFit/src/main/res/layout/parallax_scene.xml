@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <mp.agencja.puzzle.memory.fit.ViewPagerParallax
+        android:overScrollMode="never"
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageButton
+        android:onClick="onLeftButonClick"
+        android:id="@+id/btnLeft"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:paddingTop="25dp"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/left_arrow"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/image_icon_left"/>
+
+    <ImageButton
+        android:onClick="onRightButonClick"
+        android:id="@+id/btnRight"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:paddingTop="25dp"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/right_arrow"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/image_icon_right"/>
+
+    <include layout="@layout/right_menu"/>
+</RelativeLayout>

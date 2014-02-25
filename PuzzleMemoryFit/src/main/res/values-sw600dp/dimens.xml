@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="start_button_margin_bottom">120dp</dimen>
+    <dimen name="start_button_margin_top">85dp</dimen>
+    <dimen name="start_center_menu_buttons">5dp</dimen>
+    <dimen name="right_menu_buttons_margin">7dip</dimen>
+    <dimen name="right_manu_margin">7dip</dimen>
+    <dimen name="thumbial_image_padding">35dp</dimen>
+    <dimen name="gridView_width">650dp</dimen>
+    <dimen name="progres_bar_gridView_item_margin">50dp</dimen>
+    <dimen name="game_list_buttons_margin">25dp</dimen>
+</resources>

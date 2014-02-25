@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+    <TableLayout
+        android:splitMotionEvents="false"
+        android:animateLayoutChanges="true"
+        android:id="@+id/table"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:animateLayoutChanges="true"
+            android:splitMotionEvents="false">
+
+            <ImageButton
+                android:layout_margin="@dimen/game_list_buttons_margin"
+                android:id="@+id/animal_1"
+                android:background="@drawable/memory_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageButton
+                android:layout_margin="@dimen/game_list_buttons_margin"
+                android:id="@+id/animal_2"
+                android:background="@drawable/memory_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageButton
+                android:layout_margin="@dimen/game_list_buttons_margin"
+                android:id="@+id/animal_3"
+                android:background="@drawable/memory_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+
+        <TableRow
+            android:animateLayoutChanges="true"
+            android:splitMotionEvents="false">
+
+            <ImageButton
+                android:layout_margin="@dimen/game_list_buttons_margin"
+                android:id="@+id/animal_4"
+                android:background="@drawable/memory_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageButton
+                android:layout_margin="@dimen/game_list_buttons_margin"
+                android:id="@+id/animal_5"
+                android:background="@drawable/memory_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageButton
+                android:layout_margin="@dimen/game_list_buttons_margin"
+                android:id="@+id/animal_6"
+                android:background="@drawable/memory_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

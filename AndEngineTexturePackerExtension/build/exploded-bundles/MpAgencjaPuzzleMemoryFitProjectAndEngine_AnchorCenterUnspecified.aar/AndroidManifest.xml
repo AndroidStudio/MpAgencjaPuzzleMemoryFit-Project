@@ -1,0 +1,7 @@
+<!-- From: file:/C:/Users/Przemek/AndroidStudioProjects/MpAgencjaPuzzleMemoryFit-Project/AndEngine_AnchorCenter/AndroidManifest.xml --><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="org.andengine">
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="19"/>
+
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+
+    <application/>
+</manifest>
