@@ -15,7 +15,6 @@ import org.andengine.util.adt.color.Color;
 import java.io.IOException;
 
 import mp.agencja.puzzle.memory.fit.CropResolutionPolicy;
-import mp.agencja.puzzle.memory.fit.managers.SceneManager;
 
 
 public class GameActivity extends BaseGameActivity {
@@ -47,7 +46,7 @@ public class GameActivity extends BaseGameActivity {
 
 	@Override
 	public void onCreateScene(OnCreateSceneCallback pOnCreateSceneCallback) throws IOException {
-		SceneManager.getInstance().createSplashScene(pOnCreateSceneCallback);
+	//	SceneManager.getInstance().createSplashScene(pOnCreateSceneCallback);
         Scene  scene = new Scene();
         scene.setBackground(new Background(Color.RED));
       mEngine.setScene(scene);
